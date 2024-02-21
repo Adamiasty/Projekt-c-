@@ -1,6 +1,4 @@
-﻿
-
-var name = "Ewa";
+﻿var name = "Ewa";
 var sex = "kobieta";
 var age = 30;
 
@@ -12,7 +10,7 @@ else if (name == "Ewa" && age == 30 && sex == "kobieta")
     {
         Console.WriteLine("Ewa, lat 30");
     }
-else if (sex != "kobieta" && age < 30)
+else if (sex != "kobieta" && age < 18)
     {
     Console.WriteLine("Niepełnoletni mężczyzna");
     }
